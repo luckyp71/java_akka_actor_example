@@ -30,5 +30,13 @@
 			<artifactId>akka-actor_2.12</artifactId>
 			<version>2.5.18</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.typesafe.akka/akka-testkit -->
+		<dependency>
+			<groupId>com.typesafe.akka</groupId>
+			<artifactId>akka-testkit_2.12</artifactId>
+			<version>2.5.18</version>
+			<scope>test</scope>
+		</dependency>
+
 	</dependencies>
 </project>
